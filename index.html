@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме — Ременчик Елизавета</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-animation"></div>
+    <main class="container">
+        <header class="profile-card fade-in">
+            <h1>Ременчик Елизавета Дмитриевна</h1>
+            <p class="subtitle">Студентка 2 курса Колледжа IT Москва</p>
+            <p class="subtitle">Направление: Информационные системы и программирование</p>
+            <div class="contact-links">
+                <a href="https://lremen054-coder.github.io/rostok/" target="_blank">Мой учебный проект Rostok</a>
+            </div>
+        </header>
+
+        <section class="section fade-in">
+            <h2>Обо мне</h2>
+            <p>
+                Привет! Я студентка 2 курса Колледжа IT Москва по направлению «Информационные системы и программирование». 
+                Изучаю веб-разработку. Владею основами HTML, CSS и JavaScript. 
+                Умею делать семантическую верстку, адаптивные сайты и работать с DOM.
+                Этот сайт — мое портфолио-визитка, созданное в рамках задания до стажировки.
+            </p>
+        </section>
+
+        <section class="section fade-in">
+            <h2>Навыки</h2>
+            <div class="skills-grid">
+                <span class="skill-tag">HTML (Семантика)</span>
+                <span class="skill-tag">CSS (Адаптивность)</span>
+                <span class="skill-tag">JavaScript (DOM)</span>
+                <span class="skill-tag">Верстка по макету</span>
+                <span class="skill-tag">Доступность</span>
+                <span class="skill-tag">GitHub</span>
+            </div>
+        </section>
+
+        <section class="section fade-in">
+            <h2>Мой сертификат</h2>
+            <div class="certificate-block">
+                <div class="cert-info">
+                    <h3>Выдан: АНО ДПО «Образовательные технологии Яндекса»</h3>
+                    <p><strong>Тема:</strong> Основы веб-разработки</p>
+                    <p><strong>Дата выдачи:</strong> 08.06.2026</p>
+                    <p><strong>Модули:</strong> HTML/CSS, Вёрстка, JavaScript, Финальный проект.</p>
+                    <p><em>Сертификат не является документом об образовании/квалификации.</em></p>
+                </div>
+                <div class="cert-image-wrapper">
+                    <img src="images/Сертификат_RU_Ременчик_2026-18219-177.jpg" alt="Сертификат Яндекс" class="cert-image" id="certTrigger">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Создано в рамках задания до стажировки</p>
+    </footer>
+    <div class="modal" id="certModal">
+        <span class="modal-close" id="modalClose"></span>
+        <img src="images/Сертификат_RU_Ременчик_2026-18219-177.jpg" alt="Сертификат Яндекс (крупно)" class="modal-image">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
